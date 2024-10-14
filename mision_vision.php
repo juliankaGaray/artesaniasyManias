@@ -156,36 +156,7 @@
     <!-- -------- END Features w/ pattern background & stats & rocket -------- -->
 
 
-     <!-- -------- START PRE-FOOTER 1 w/ SUBSCRIBE BUTTON AND IMAGE ------- -->
-     <section class="my-5 pt-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 m-auto"> 
-            <h4>Conce Más sobre nosotros</h4>
-            <p class="mb-4">
-              Si quieres conocer más sobre nuestros productos y promociones, haznolo saber
-            </p>
-            <div class="row">
-              <div class="col-8">
-                <div class="input-group input-group-outline">
-                  <label class="form-label">ingresa tu correo aquí</label>
-                  <input type="text" class="form-control mb-sm-0">
-                </div>
-              </div>
-              <div class="col-4 ps-0">
-                <button type="button" class="btn bg-gradient-info mb-0 h-100 position-relative z-index-2">conocenos</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5 ms-auto">
-            <div class="position-relative">
-              <img class="max-width-50 w-100 position-relative z-index-2" src="kit-master/assets/img/macbook.png" alt="image">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- -------- END PRE-FOOTER 1 w/ SUBSCRIBE BUTTON AND IMAGE ------- -->
+     
     
     <section class="pt-4 pb-6" id="count-stats">
       
@@ -214,5 +185,32 @@
         
     </section>
    
+    <!-- -------- START PRE-FOOTER 1 w/ SUBSCRIBE BUTTON AND IMAGE ------- -->
+    <section class="my-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 m-auto">
+            <h4>Únete a Nuestra Comunidad</h4>
+            <p class="mb-4">            
+          Te invitamos a explorar nuestra tienda y descubrir la variedad de productos que ofrecemos. Ya sea que busques un regalo especial o desees consentirte con algo único, aquí encontrarás piezas que inspirarán y alegrarán tu vida.
+          ¡Gracias por ser parte de nuestra historia!
+            </p>
+            <div class="row">
+              
+            <div class="col-4 ps-0">
+                <a href="Enviocorreo.php" class="btn bg-gradient-warning  mb-0 h-100 position-relative z-index-2 text-decoration-none">Comunícate con nosotros</a>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-5 ms-auto">
+            <div class="position-relative">
+              <img class="max-width-50 w-100 position-relative z-index-2" src="kit-master/assets/img/macbook.png" alt="image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------- END PRE-FOOTER 1 w/ SUBSCRIBE BUTTON AND IMAGE ------- -->
   </div>
   <?php include('footer.php'); ?>
