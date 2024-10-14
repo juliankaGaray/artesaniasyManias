@@ -4,10 +4,10 @@
 // Código de conexión a la base de datos
 $host = "localhost";
 $usuario = "root";
-$password = "";
+$pass = "";
 $base_de_datos = "calse_4"; 
 
-$conexion = new mysqli($host, $usuario, $password, $base_de_datos);
+$conexion = new mysqli($host, $usuario, $pass, $base_de_datos);
 
 // Verificar la conexión
 if ($conexion->connect_error) {
@@ -20,7 +20,7 @@ $exito = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validación de campos del formulario
-    if (empty($_POST["nombre"]) || empty($_POST["apellido"]) || empty($_POST["edad"]) || empty($_POST["ciudad"]) || empty($_POST["celular"]) || empty($_POST["usuario"]) || empty($_POST["password"]) || empty($_POST["rol"])) {
+    if (empty($_POST["nombre"]) || empty($_POST["apellido"]) || empty($_POST["edad"]) || empty($_POST["ciudad"]) || empty($_POST["celular"]) || empty($_POST["usuario"]) || empty($_POST["pass"]) || empty($_POST["rol"])) {
         $error = "Todos los campos son obligatorios.";
     } else {
         // Obtener los datos del formulario
@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $celular = (int)$_POST["celular"];
         $usuario = $_POST["usuario"];
         $rol = $_POST["rol"];
-        $password = $_POST["password"];
+        $pass = $_POST["pass"];
         
         // 1. Inserta primero en la tabla `usuarios`
         $sql_usuario = "INSERT INTO usuarios (usuario, pass, rol_id) VALUES (?, ?, ?)";
@@ -51,10 +51,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             
             // Ahora inserta el usuario con el rol encontrado
             if ($stmt_usuario) {
-                $stmt_usuario->bind_param("ssi", $usuario, $password, $rol_id);
+                $stmt_usuario->bind_param("ssi", $usuario, $pass, $rol_id);
                 
                 if ($stmt_usuario->execute()) {
-                    $exito = "Registro insertado con éxito.";
+                    // 2. Inserta en la tabla `registro`
+                    $sql_registro = "INSERT INTO registro (nombre, apellido, edad, ciudad, celular, usuarios_id) VALUES (?, ?, ?, ?, ?, ?)";
+                    $stmt_registro = $conexion->prepare($sql_registro);
+
+                    if ($stmt_registro) {
+                        // Obtén el ID del último usuario insertado
+                        $usuarios_id = $conexion->insert_id;
+                        $stmt_registro->bind_param("ssissi", $nombre, $apellido, $edad, $ciudad, $celular, $usuarios_id);
+                        
+                        if ($stmt_registro->execute()) {
+                            $exito = "Registro insertado con éxito en las tablas 'usuarios' y 'registro'.";
+                        } else {
+                            $error = "Error al insertar en la tabla registro: " . $stmt_registro->error;
+                        }
+                        
+                        // Cerrar la sentencia preparada de registro
+                        $stmt_registro->close();
+                    } else {
+                        $error = "Error al preparar la consulta de registro: " . $conexion->error;
+                    }
                 } else {
                     $error = "Error al insertar en usuarios: " . $stmt_usuario->error;
                 }
@@ -77,67 +96,67 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $conexion->close();
 ?>
 
-<!-- Mostrar mensajes -->
-<div class="container mt-3">
-    <?php if (!empty($error)): ?>
-        <div class="alert alert-danger"><?php echo $error; ?></div>
-    <?php elseif (!empty($exito)): ?>
-        <div class="alert alert-success"><?php echo $exito; ?></div>
-    <?php endif; ?>
-</div>
-
-<!-- Formulario de registro -->
-<form class="container-fluid" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-    <section class="py-5">
-        <div class="container px-5">
-            <div class="bg-light rounded-4 py-5 px-4 px-md-5">
-                <div class="text-center mb-5">
-                    <div class="feature text-white rounded-3 mb-3">
-                        <img src="docs/assets/images/icons/clipboard.svg" alt="Icono personalizado" class="svg-icon">
+<div class="page-header align-items-start min-vh-100">
+    <div class="container my-auto">
+        <div class="row">
+            <div class="col-lg-6 col-md-8 col-12 mx-auto">
+                <div class="card z-index-0 fadeIn3 fadeInBottom">
+                    <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                        <div class="bg-gradient-primary shadow-primary border-radius-lg py-3 pe-1">
+                            <h4 class="text-white font-weight-bolder text-center mt-2 mb-0">Formulario de Registro</h4>
+                        </div>
                     </div>
-                    <h1 class="fw-bolder">Formulario de Registro</h1>
-                    <p class="lead fw-normal text-muted mb-0">Inicia tu registro</p>
-                </div>
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6">
-                        <div class="mb-3">
-                            <label for="nombre" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="nombre" name="nombre" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="apellido" class="form-label">Apellido</label>
-                            <input type="text" class="form-control" id="apellido" name="apellido" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="edad" class="form-label">Edad</label>
-                            <input type="number" class="form-control" id="edad" name="edad" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="ciudad" class="form-label">Ciudad</label>
-                            <input type="text" class="form-control" id="ciudad" name="ciudad" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="celular" class="form-label">Celular</label>
-                            <input type="number" class="form-control" id="celular" name="celular" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="usuario" class="form-label">Usuario</label>
-                            <input type="text" class="form-control" id="usuario" name="usuario" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="rol" class="form-label">Rol</label>
-                            <input type="text" class="form-control" id="rol" name="rol" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="password" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="password" name="password" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Registrar</button>
+                    <div class="card-body">
+                        <!-- Mostrar mensajes de error o éxito -->
+                        <?php if (!empty($error)): ?>
+                            <div class="alert alert-danger"><?php echo $error; ?></div>
+                        <?php elseif (!empty($exito)): ?>
+                            <div class="alert alert-success"><?php echo $exito; ?></div>
+                        <?php endif; ?>
+
+                        <!-- Formulario de registro -->
+                        <form role="form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" class="text-start">
+                            <div class="input-group input-group-outline my-3">
+                                <label class="form-label">Nombre</label>
+                                <input type="text" name="nombre" class="form-control" required>
+                            </div>
+                            <div class="input-group input-group-outline my-3">
+                                <label class="form-label">Apellido</label>
+                                <input type="text" name="apellido" class="form-control" required>
+                            </div>
+                            <div class="input-group input-group-outline my-3">
+                                <label class="form-label">Edad</label>
+                                <input type="number" name="edad" class="form-control" required>
+                            </div>
+                            <div class="input-group input-group-outline my-3">
+                                <label class="form-label">Ciudad</label>
+                                <input type="text" name="ciudad" class="form-control" required>
+                            </div>
+                            <div class="input-group input-group-outline my-3">
+                                <label class="form-label">Celular</label>
+                                <input type="number" name="celular" class="form-control" required>
+                            </div>
+                            <div class="input-group input-group-outline my-3">
+                                <label class="form-label">Usuario</label>
+                                <input type="text" name="usuario" class="form-control" required>
+                            </div>
+                            <div class="input-group input-group-outline my-3">
+                                <label class="form-label">Rol</label>
+                                <input type="text" name="rol" class="form-control" required>
+                            </div>
+                            <div class="input-group input-group-outline my-3">
+                                <label class="form-label">Contraseña</label>
+                                <input type="password" name="pass" class="form-control" required>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2">Registrar</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-</form>
+    </div>
+</div>
 
-<?php include('footer.php') ?>
+<?php include('footer.php'); ?>
