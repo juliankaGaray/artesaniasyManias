@@ -7,12 +7,12 @@
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
             <h1 class="text-white">Bienvenidos a Artesanias y manías  </h1>
-            <p class="lead mb-4 text-white opacity-8">Donde cada creación es una pasión  con tradición. ¡Descubre lo extraordinario de lo hecho a mano!</p>
+            <p class="lead mb-4 text-white opacity-8">Donde cada creación es una pasión con tradición. ¡Descubre lo extraordinario de lo hecho a mano!</p>
             <form action="registro.php" method="post"> 
               <button type="submit" class="btn bg-white text-dark">Únete a nosotros</button>
             </form>
             
-            <h6 class="text-white mb-2 mt-5">encuentranos en </h6>
+            <h6 class="text-white mb-2 mt-5">Encuentranos en: </h6>
             <div class="d-flex justify-content-center">
               <a href="javascript:;"><i class="fab fa-facebook text-lg text-white me-4"></i></a>
               <a href="javascript:;"><i class="fab fa-instagram text-lg text-white me-4"></i></a>
@@ -36,7 +36,7 @@
             <div class="card-body text-center">
               <i class="material-icons text-4xl mb-3">public</i>
               <h3 class="font-weight-bold">MISIÓN</h3>
-              <p class="mb-0">"Crear conexiones significativas entre las manos creativas de los artesanos y los corazones de nuestros clientes, ofreciendo productos únicos y hechos a mano que reflejan cultura, pasión y autenticidad. Nuestro compromiso es promover el trabajo artesanal sostenible y justo, llevando la esencia de la tradición a cada hogar, y generando oportunidades de desarrollo para nuestros artesanos."</p>
+              <p class="mb-0">"Conectar de manera significativa las manos creativas de los artesanos con los corazones de nuestros clientes, a través de la oferta de productos únicos y artesanales que encarnan la cultura, la pasión y la autenticidad. Nos comprometemos a promover prácticas sostenibles y justas en el trabajo artesanal, llevando la esencia de la tradición a cada hogar y creando oportunidades de desarrollo para nuestros artesanos, mientras cultivamos un sentido de comunidad y apreciación por el arte hecho a mano."</p>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@
             <div class="card-body text-center">
               <i class="material-icons text-4xl mb-3">3p</i>
               <h2 class="font-weight-bold"style="color: #FF5733;">VISIÓN</h2>
-              <p class="mb-0">"Convertirnos en un referente global de productos artesanales que combinan tradición y creatividad, siendo reconocidos por nuestra calidad, sostenibilidad y apoyo constante a las comunidades artesanas. Aspiramos a transformar el mercado artesanal, logrando que cada pieza hecha a mano cuente una historia única, y llevando nuestra pasión por lo artesanal a todos los rincones del mundo."</p>
+              <p class="mb-0">"Convertirnos en un referente global en la creación de productos artesanales que fusionen tradición y creatividad, reconocidos por nuestra excepcional calidad y compromiso con la sostenibilidad. Aspiramos a revolucionar el mercado artesanal, asegurando que cada pieza hecha a mano narre una historia única, mientras compartimos nuestra pasión por lo artesanal en todos los rincones del mundo, fortaleciendo continuamente a las comunidades artesanas que hacen posible nuestra misión."</p>
             </div>
           </div>
         </div>
@@ -81,7 +81,7 @@
                 <div class="col-lg-8 col-md-6 col-12 my-auto">
                   <div class="card-body ps-lg-0">
                   <h5>
-                    <a href="javascript:;" class="text-dark font-weight-bold">Collar Ansestral</a>
+                    <a href="javascript:;" class="text-dark font-weight-bold">Collar Ancestral</a>
                       </h5>
                       <p class="card-description">
                       Este collar ancestral es una obra de arte que honra la herencia cultural de nuestros ancestros indígenas. Hecho a mano con materiales naturales y diseños intrincados, cada pieza cuenta una historia de sabiduría ancestral y conexión con la tierra. Ideal para quienes buscan un accesorio único que refleje un estilo auténtico y lleno de significado.
