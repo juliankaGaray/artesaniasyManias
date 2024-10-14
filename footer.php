@@ -12,9 +12,9 @@
     <div class="col-12">
       <div class="text-center">
         <p class="text-dark my-4 text-sm font-weight-normal">
-         Uniminuto a disticania ingenieria de sistemas © <script>
+         Uniminuto a disticania ingeniería de sistemas © <script>
             document.write(new Date().getFullYear())
-          </script> Ejercicios 5 y 6 ingenieria Web 1 <a>Grupo 23</a>.
+          </script> Ejercicios 5 y 6 ingeniería Web 1 <a>Grupo 23</a>.
         </p>
       </div>
     </div>
