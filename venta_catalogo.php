@@ -43,7 +43,7 @@ $granTotal = 0;
             } else {
             ?>
                 <div class="alert alert-danger">
-                    <strong>Error:</strong> Algo salió mal mientras se realizaba la venta
+                    <strong>Error:</strong> ¡Lo lamentamos! Algo salió mal mientras se realizaba la venta
                 </div>
         <?php
             }
