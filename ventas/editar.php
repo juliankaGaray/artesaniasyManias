@@ -32,8 +32,8 @@ if($producto === FALSE){
 
 			<label for="existencia">Existencia:</label>
 			<input value="<?php echo $producto->existencia ?>" class="form-control" name="existencia" required type="number" id="existencia" placeholder="Cantidad o existencia">
-			<label for="imagen">Imagen:</label> <!-- Campo para subir imagen -->
-			<input class="form-control" name="imagen" required type="file" id="imagen" accept="image/*"> <!-- Solo acepta imágenes -->
+			<label for="imagen">Imagen:</label>
+			<input class="form-control" name="imagen" type="file" id="imagen" accept="image/*"> <!-- No es required -->
 
 			<br><br>
 			<br><br><input class="btn btn-success" type="submit" value="Guardar">

@@ -1,12 +1,7 @@
-<?php include('header.php') ?>
-
-
-
-
-		<!-- inicio del header -->
-	  
+<?php include('header.php'); ?>
+  <!-- -------- START HEADER 7 w/ text and video ------- -->
   <header class="bg-gradient-dark">
-    <div class="page-header min-vh-75" style="background-image: url('kit-master/assets/img/bg9.jpg');">
+    <div class="page-header min-vh-75" style="background-image: url('kit-master/assets/img/bg2.jpg');">
       <span class="mask bg-gradient-dark opacity-6"></span>
       <div class="container">
         <div class="row justify-content-center">
@@ -29,72 +24,42 @@
       </div>
     </div>
   </header>
-
   <!-- -------- END HEADER 7 w/ text and video ------- -->
   <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
-    <! Section with four info areas left & one card right with image and waves -
-    <section class="py-7">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="row justify-content-start">
-              <div class="col-md-6">
-                <div class="info">
-                  <i class="material-icons text-3xl text-gradient text-info mb-3">public</i>
-                  <h5>Tradición Global</h5>
-                  <p>sintente en contactos con los ansestros de nuestras civilizaciones</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info">
-                  <i class="material-icons text-3xl text-gradient text-info mb-3">payments</i>
-                  <h5>Fotos Verificadas</h5>
-                  <p>Todas las fotos de nuetros productos son previamente verificadas para que tengas lo que realmente deseas</p>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-start mt-4">
-              <div class="col-md-6">
-                <div class="info">
-                  <i class="material-icons text-3xl text-gradient text-info mb-3">apps</i>
-                  <h5>Catalogo Amplio</h5>
-                  <p>Tenemos diferenstes productos que te ayudaran a conectar redescubrir la belleza de lo hecho a mano</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info">
-                  <i class="material-icons text-3xl text-gradient text-info mb-3">3p</i>
-                  <h5>seguimiento de tu pedido </h5>
-                  <p> Tenemos un grupo de asesores que no dejaran solo en tu compra hasta que la estes disfrutando</p>
-                </div>
-              </div>
+  <!-- Section for Mission and Vision -->
+  <section class="py-7">
+    <div class="container">
+      <div class="row">
+        <!-- Mission -->
+        <div class="col-md-6 mb-5">
+          <div class="card bg-gradient-info text-white">
+            <div class="card-body text-center">
+              <i class="material-icons text-4xl mb-3">public</i>
+              <h3 class="font-weight-bold">MISIÓN</h3>
+              <p class="mb-0">"Crear conexiones significativas entre las manos creativas de los artesanos y los corazones de nuestros clientes, ofreciendo productos únicos y hechos a mano que reflejan cultura, pasión y autenticidad. Nuestro compromiso es promover el trabajo artesanal sostenible y justo, llevando la esencia de la tradición a cada hogar, y generando oportunidades de desarrollo para nuestros artesanos."</p>
             </div>
           </div>
-          <div class="col-lg-4 ms-auto mt-lg-0 mt-4">
-            <div class="card">
-              <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                <a class="d-block blur-shadow-image">
-                  <img src="kit-master/assets/img/bg0.jpg" alt="img-colored-shadow" class="img-fluid border-radius-lg">
-                </a>
-              </div>
-              <div class="card-body text-center">
-                <h5 class="font-weight-normal">
-                  <a href="javascript:;">Asesores de Acompañamiento</a>
-                </h5>
-                <p class="mb-0">
-                  Recibiremos todos tus comentarios y sugenrecias.
-                </p>
-                <button type="button" class="btn bg-gradient-info btn-sm mb-0 mt-3">comunicate con nosotros</button> 
-              </div>
+        </div>
+
+        <!-- Vision -->
+        <div class="col-md-6 mb-5">
+          <div class="card bg-gradient-dark text-white">
+            <div class="card-body text-center">
+              <i class="material-icons text-4xl mb-3">3p</i>
+              <h2 class="font-weight-bold"style="color: #FF5733;">VISIÓN</h2>
+              <p class="mb-0">"Convertirnos en un referente global de productos artesanales que combinan tradición y creatividad, siendo reconocidos por nuestra calidad, sostenibilidad y apoyo constante a las comunidades artesanas. Aspiramos a transformar el mercado artesanal, logrando que cada pieza hecha a mano cuente una historia única, y llevando nuestra pasión por lo artesanal a todos los rincones del mundo."</p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+</div>
+<!-- END Section for Mission and Vision -->
     </section>
     <!-- END Section with four info areas left & one card right with image and waves -->
-  
- <!-- -------- START Features w/ pattern background & stats & rocket -------- -->
- <section class="pb-5 position-relative bg-gradient-dark mx-n3">
+    <!-- -------- START Features w/ pattern background & stats & rocket -------- -->
+    <section class="pb-5 position-relative bg-gradient-dark mx-n3">
       <div class="container">
         <div class="row">
           <div class="col-md-8 text-start mb-5 mt-5">
@@ -188,47 +153,66 @@
         </div>
       </div>
     </section>
+    <!-- -------- END Features w/ pattern background & stats & rocket -------- -->
+
+
+     <!-- -------- START PRE-FOOTER 1 w/ SUBSCRIBE BUTTON AND IMAGE ------- -->
+     <section class="my-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 m-auto"> 
+            <h4>Conce Más sobre nosotros</h4>
+            <p class="mb-4">
+              Si quieres conocer más sobre nuestros productos y promociones, haznolo saber
+            </p>
+            <div class="row">
+              <div class="col-8">
+                <div class="input-group input-group-outline">
+                  <label class="form-label">ingresa tu correo aquí</label>
+                  <input type="text" class="form-control mb-sm-0">
+                </div>
+              </div>
+              <div class="col-4 ps-0">
+                <button type="button" class="btn bg-gradient-info mb-0 h-100 position-relative z-index-2">conocenos</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 ms-auto">
+            <div class="position-relative">
+              <img class="max-width-50 w-100 position-relative z-index-2" src="kit-master/assets/img/macbook.png" alt="image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------- END PRE-FOOTER 1 w/ SUBSCRIBE BUTTON AND IMAGE ------- -->
     
-
-
-			<!-- inicio del carousel 
-<div id="exerciseCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="app/images/carousel/carusel01.jpg" class="d-block w-100" alt="Ejercicio 1">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Primer Ejercicio</h5>
-                <p>Generar un formulario de  registro con conexion a una base de datos en phpmyadmin.</p>
-                <a href="registro.php" class="btn btn-primary">Ir al Ejercicio</a>
-            </div>
+    <section class="pt-4 pb-6" id="count-stats">
+      
+      <div class="container">
+                <div class="row mb-7">
+                  <a href="javascript:;" class="text-dark font-weight-bold">Algunos de nuestros patrocinadores son:</a>
+          <div class="col-lg-2 col-md-4 col-6 mb-4">
+            <img class="w-100 opacity-7" src="kit-master/assets/img/logos/gray-logos/logo-coinbase.svg" alt="logo">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 mb-4">
+            <img class="w-100 opacity-7" src="kit-master/assets/img/logos/gray-logos/logo-nasa.svg" alt="logo">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 mb-4">
+            <img class="w-100 opacity-7" src="kit-master/assets/img/logos/gray-logos/logo-netflix.svg" alt="logo">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 mb-4">
+            <img class="w-100 opacity-7" src="kit-master/assets/img/logos/gray-logos/logo-pinterest.svg" alt="logo">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 mb-4">
+            <img class="w-100 opacity-7" src="kit-master/assets/img/logos/gray-logos/logo-spotify.svg" alt="logo">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6 mb-4">
+            <img class="w-100 opacity-7" src="kit-master/assets/img/logos/gray-logos/logo-vodafone.svg" alt="logo">
+          </div>
         </div>
-        <div class="carousel-item">
-            <img src="app/images/carousel/carusel02.jpg" class="d-block w-100" alt="Ejercicio 2">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Segundo Ejercicio</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim!</p>
-                <a href="ejercicio2.php" class="btn btn-primary">Ir al Ejercicio</a>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="app/images/carousel/carusel03.jpg" class="d-block w-100" alt="Ejercicio 3">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Tercer Ejercicio</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
-                <a href="ejercicio3.php" class="btn btn-primary">Ir al Ejercicio</a>
-            </div>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#exerciseCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#exerciseCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
- fin del carousel -->
- 
-
-<?php include('footer.php')?>
+        
+    </section>
+   
+  </div>
+  <?php include('footer.php'); ?>
