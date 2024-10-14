@@ -119,10 +119,9 @@
                     <a href="javascript:;" class="text-dark font-weight-bold">Collar Ancestral</a>
                       </h5>
                       <p class="card-description">
-                      Este collar ancestral es una obra de arte que honra la herencia cultural de nuestros ancestros indígenas. Hecho a mano con materiales naturales y diseños intrincados, cada pieza cuenta una historia de sabiduría ancestral y conexión con la tierra. Ideal para quienes buscan un accesorio único que refleje un estilo auténtico y lleno de significado.
-                      </p>
+                      Este collar ancestral es una obra de arte que honra la herencia cultural de nuestros ancestros indígenas. Hecho a mano con materiales naturales y diseños intrincados, cada pieza cuenta una historia de sabiduría ancestral y conexión con la tierra. Es ideal para quienes buscan un accesorio único que refleje un estilo auténtico y lleno de significado.</p>
                       <p class="text-dark font-weight-bold">$69.999</p>
-                      <a href="catalogo.php" class="text-info text-sm icon-move-right">Ver Catalogo
+                      <a href="catalogo.php" class="text-info text-sm icon-move-right">Ver Catálogo
                         <i class="fas fa-arrow-right text-xs ms-1"></i>
                       </a>
                   </div>
@@ -152,7 +151,7 @@
                         Nuestra ruana tradicional es el abrigo perfecto para cualquier ocasión. Tejida con lana de alta calidad por artesanos locales, esta prenda emblemática de los Andes te mantendrá cálido y elegante. Su diseño clásico y versátil la convierte en un accesorio imprescindible, ideal tanto para el frío de la montaña como para los días frescos en la ciudad.
                         </p>
                         <p class="text-dark font-weight-bold">$69.999</p>
-                        <a href="catalogo.php" class="text-info text-sm icon-move-right">Ver Catalogo
+                        <a href="catalogo.php" class="text-info text-sm icon-move-right">Ver Catálogo
                           <i class="fas fa-arrow-right text-xs ms-1"></i>
                   </div>
                 </div>
@@ -178,7 +177,7 @@
                         La mochila Wayuu es una pieza única, tejida a mano por la comunidad indígena Wayuu de Colombia. Cada mochila cuenta con un diseño colorido y geométrico que refleja la rica tradición de este pueblo. Ligera, resistente y con un estilo bohemio, es el complemento ideal para quienes valoran la autenticidad y el trabajo artesanal en sus accesorios.
                         </p>
                         <p class="text-dark font-weight-bold">$79.999</p>
-                        <a href="catalogo.php" class="text-info text-sm icon-move-right">Ver Catalogo
+                        <a href="catalogo.php" class="text-info text-sm icon-move-right">Ver Catálogo
                           <i class="fas fa-arrow-right text-xs ms-1"></i>
                   </div>
                 </div>
