@@ -80,7 +80,7 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="login.php">Inicio de sesión</a></li>
 			<li><a class="dropdown-item" href="Enviocorreo.php">Envio correo</a></li>
-			<li><a class="dropdown-item" href="recolecciondatos.php">Sobre nosotros</a></li>
+			<li><a class="dropdown-item" href="nosotros.php">Sobre nosotros</a></li>
           </ul>
         </li>
         <li class="nav-item">
