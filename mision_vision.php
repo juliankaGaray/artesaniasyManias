@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+v
   <!-- -------- START HEADER 7 w/ text and video ------- -->
   <header class="bg-gradient-dark">
     <div class="page-header min-vh-75" style="background-image: url('kit-master/assets/img/bg2.jpg');">

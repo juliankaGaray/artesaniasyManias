@@ -12,7 +12,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
             <h1 class="text-white">Bienvenidos a ¡Artesanias y manías!  </h1>
-            <p class="lead mb-4 text-white opacity-8">Donde cada creación es una pasión con tradición. <p>¡Descubre lo extraordinario de lo hecho a mano!</p></p>
+            <p class="lead mb-4 text-white opacity-8">Donde cada creación es una pasión con tradición. ¡Descubre lo extraordinario de lo hecho a mano!</p>
             <form action="registro.php" method="post"> 
               <button type="submit" class="btn bg-white text-dark">Únete a nosotros</button>
             </form>
