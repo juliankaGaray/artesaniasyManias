@@ -11,13 +11,13 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
-            <h1 class="text-white">Bienvenidos a Artesanias y manías  </h1>
-            <p class="lead mb-4 text-white opacity-8">Donde cada creación es una pasión  con tradición. ¡Descubre lo extraordinario de lo hecho a mano!</p>
+            <h1 class="text-white">Bienvenidos a ¡Artesanias y manías!  </h1>
+            <p class="lead mb-4 text-white opacity-8">Donde cada creación es una pasión con tradición. <p>¡Descubre lo extraordinario de lo hecho a mano!</p></p>
             <form action="registro.php" method="post"> 
               <button type="submit" class="btn bg-white text-dark">Únete a nosotros</button>
             </form>
             
-            <h6 class="text-white mb-2 mt-5">encuentranos en </h6>
+            <h6 class="text-white mb-2 mt-5">Encuentranos en: </h6>
             <div class="d-flex justify-content-center">
               <a href="javascript:;"><i class="fab fa-facebook text-lg text-white me-4"></i></a>
               <a href="javascript:;"><i class="fab fa-instagram text-lg text-white me-4"></i></a>
@@ -42,14 +42,14 @@
                 <div class="info">
                   <i class="material-icons text-3xl text-gradient text-info mb-3">public</i>
                   <h5>Tradición Global</h5>
-                  <p>sintente en contactos con los ansestros de nuestras civilizaciones</p>
+                  <p>Siéntete en contactos con los ancestros de nuestra civilización</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info">
                   <i class="material-icons text-3xl text-gradient text-info mb-3">payments</i>
                   <h5>Fotos Verificadas</h5>
-                  <p>Todas las fotos de nuetros productos son previamente verificadas para que tengas lo que realmente deseas</p>
+                  <p>Todas las fotos de nuestros productos son previamente verificadas para que tengas lo que realmente deseas</p>
                 </div>
               </div>
             </div>
@@ -57,15 +57,15 @@
               <div class="col-md-6">
                 <div class="info">
                   <i class="material-icons text-3xl text-gradient text-info mb-3">apps</i>
-                  <h5>Catalogo Amplio</h5>
-                  <p>Tenemos diferenstes productos que te ayudaran a conectar redescubrir la belleza de lo hecho a mano</p>
+                  <h5>Catálogo</h5>
+                  <p>Tenemos diferenstes productos que te ayudarán a conectar y redescubrir la belleza de lo hecho a mano</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info">
                   <i class="material-icons text-3xl text-gradient text-info mb-3">3p</i>
-                  <h5>seguimiento de tu pedido </h5>
-                  <p> Tenemos un grupo de asesores que no dejaran solo en tu compra hasta que la estes disfrutando</p>
+                  <h5>Seguimiento de tu pedido </h5>
+                  <p>¿Tienes alguna duda? Conectate con uno de nuestros asesores </p>
                 </div>
               </div>
             </div>
@@ -79,12 +79,12 @@
               </div>
               <div class="card-body text-center">
                 <h5 class="font-weight-normal">
-                  <a href="javascript:;">Asesores de Acompañamiento</a>
+                  <a href="javascript:;">Asesores de acompañamiento</a>
                 </h5>
                 <p class="mb-0">
-                  Recibiremos todos tus comentarios y sugenrecias.
+                  Recibiremos todos tus comentarios y sugerencias.
                 </p>
-                <button type="button" class="btn bg-gradient-info btn-sm mb-0 mt-3">comunicate con nosotros</button> 
+                <button type="button" class="btn bg-gradient-info btn-sm mb-0 mt-3">Comunicate con nosotros</button> 
               </div>
             </div>
           </div>
@@ -116,7 +116,7 @@
                 <div class="col-lg-8 col-md-6 col-12 my-auto">
                   <div class="card-body ps-lg-0">
                   <h5>
-                    <a href="javascript:;" class="text-dark font-weight-bold">Collar Ansestral</a>
+                    <a href="javascript:;" class="text-dark font-weight-bold">Collar Ancestral</a>
                       </h5>
                       <p class="card-description">
                         Brief description of Product 4 goes here. It provides key details that make the product appealing to the customer.
