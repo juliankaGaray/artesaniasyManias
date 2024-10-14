@@ -67,23 +67,20 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Menú
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="registro.php">registro</a></li>
-            <li><a class="dropdown-item" href="catalogo.php">Catalogo</a></li>
+            <li><a class="dropdown-item" href="registro.php">Registro</a></li>
+            <li><a class="dropdown-item" href="catalogo.php">Catálogo</a></li>
 			      <li><a class="dropdown-item" href="mision_vision.php">Misión y visión</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="login.php">Inicio de sesión</a></li>
-			<li><a class="dropdown-item" href="Enviocorreo.php">formulario Envio correo</a></li>
-			<li><a class="dropdown-item" href="recolecciondatos.php">formulario Recolección de datos</a></li>
+			<li><a class="dropdown-item" href="Enviocorreo.php">Envio correo</a></li>
+			<li><a class="dropdown-item" href="recolecciondatos.php">Sobre nosotros</a></li>
           </ul>
         </li>
         <li class="nav-item">
