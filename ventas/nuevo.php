@@ -1,6 +1,6 @@
 <?php
 include_once "base_de_datos.php"; // Asegúrate de incluir tu archivo de conexión
-
+include('encabezado.php');
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Obtener datos del formulario
     $codigo = $_POST['codigo'];
@@ -24,4 +24,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         echo "Error al subir la imagen.";
     }
 }
+include('pie.php');
 ?>

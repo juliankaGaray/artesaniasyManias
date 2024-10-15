@@ -21,7 +21,7 @@ if (!isset($_SESSION['usuario'])) {
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="index.php">Start Bootstrap</a>
+            <a class="navbar-brand ps-3" href="index.php">Artesanías y manias</a>
             <!-- Sidebar Toggle-->
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
             <!-- Navbar Search-->
@@ -50,7 +50,7 @@ if (!isset($_SESSION['usuario'])) {
                     <div class="sb-sidenav-menu">
                         <div class="nav">
                             <div class="sb-sidenav-menu-heading">Core</div>
-                            <a class="nav-link" href="index.html">
+                            <a class="nav-link" href="index.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
                             </a>
@@ -64,7 +64,7 @@ if (!isset($_SESSION['usuario'])) {
                             </div>
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
                                 <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
-                                Pages
+                                Paginas
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
                             <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
@@ -75,7 +75,7 @@ if (!isset($_SESSION['usuario'])) {
                                     </a>
                                     <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                                         <nav class="sb-sidenav-menu-nested nav">
-                                            <a class="nav-link" href="login.php">Login</a>
+                                            <a class="nav-link" href="../index.php">pagina Web</a>
                                             <a class="nav-link" href="/logout.php">Cerrar sesión</a>
                                         </nav>
                                     </div>
@@ -85,18 +85,7 @@ if (!isset($_SESSION['usuario'])) {
                                     </div>
                                 </nav>
                             </div>
-                            <div class="sb-sidenav-menu-heading">Addons</div>
-                            <a class="nav-link" href="charts.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                                Charts
-                            </a>
                             
-                            <a class="nav-link" href="tables.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                Tables
-                            </a>
-                            
-                        </div>
                     </div>
                     <div class="sb-sidenav-footer">
                         <div class="small">inicio de sesion como :</div>
@@ -107,9 +96,9 @@ if (!isset($_SESSION['usuario'])) {
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">modulo de ventas</h1>
+                        <h1 class="mt-4">Modulo de Ventas</h1>
                         <ol class="breadcrumb mb-4">
-                            <li class="breadcrumb-item active">ventas</li>
+                            <li class="breadcrumb-item active"></li>
                         </ol>
                         <div class="row">
                             <div class="col-xl-3 col-md-6">

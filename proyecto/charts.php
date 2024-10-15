@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hola mundo </h1>
+    <h1>Espacio para visualizar todas las graficas estadisticas </h1>
     
 </body>
 </html>
