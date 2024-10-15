@@ -5,7 +5,7 @@ include_once "ventas/base_de_datos.php";
 
 // Verificar que haya productos en el carrito
 if (!isset($_SESSION['carrito']) || empty($_SESSION['carrito'])) {
-    echo "<h2>No hay productos en el carrito para procesar la venta.</h2>";
+    echo "<h2>No hay productos en el carrito para procesar la compra.</h2>";
     exit;
 }
 
@@ -46,12 +46,16 @@ try {
     unset($_SESSION['carrito']);
 
     // Mostrar un mensaje de éxito
-    echo "<h2>La venta se ha procesado con éxito. Total: $" . number_format($totalVenta, 2) . "</h2>";
+    echo '<div style="background-color: white; padding: 20px; border-radius: 5px; text-align: center; margin: 20px auto; width: 80%; max-width: 600px;">';
+    echo "<h2>La compra se ha procesado con éxito. Total: $" . number_format($totalVenta, 2) . "</h2>";
+    echo '</div>';
 
 } catch (Exception $e) {
     // Revertir los cambios en caso de error
     $base_de_datos->rollBack();
+    echo '<div style="background-color: white; padding: 20px; border-radius: 5px; text-align: center; margin: 20px auto; width: 80%; max-width: 600px;">';
     echo "<h2>Error al procesar la venta: " . $e->getMessage() . "</h2>";
+    echo '</div>';
 }
 
 include('footer.php'); 

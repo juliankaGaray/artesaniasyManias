@@ -15,7 +15,7 @@ $productos = $sentencia->fetchAll(PDO::FETCH_OBJ);
 
 <div class="container-fluid bg-white p-4" style="border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
     <div class="col-xs-12">
-        <h1>Productos</h1>
+        <h1>Carrito de Compras</h1>
         <br>
         <div class="table-responsive">
             <table class="table table-bordered" style="width: 100%;">
