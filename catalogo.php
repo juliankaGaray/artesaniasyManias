@@ -37,7 +37,7 @@ $productos = $sentencia->fetchAll(PDO::FETCH_OBJ);
             </td>
             <td>
               <!-- Botón para agregar a la venta -->
-              <a class="btn btn-primary" href="venta_catalogo.php?id=<?php echo $producto->id; ?>">
+              <a class="btn btn-primary" href="carrito.php?id=<?php echo $producto->id; ?>">
                   <i class="fas fa-shopping-cart"></i> Agregar al carrito
               </a>
               
