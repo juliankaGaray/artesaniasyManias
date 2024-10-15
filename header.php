@@ -76,8 +76,6 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="registro.php">Registro</a></li>
             <li><a class="dropdown-item" href="catalogo.php">Catálogo</a></li>
-
-
             
 			      <li><a class="dropdown-item" href="mision_vision.php">Misión y visión</a></li>
             <li><hr class="dropdown-divider"></li>

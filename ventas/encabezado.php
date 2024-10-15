@@ -141,26 +141,23 @@ if (!isset($_SESSION['usuario'])) {
                         </div>
                         <div class="row">
                         <div class="col-xl-6">
-                            <div class="card mb-4">
-                                <div class="card-header">
-                                    <i class="fas fa-chart-area me-1"></i>
-                                    <a href="grafico_ventas.php">Ventas por Fecha</a>
-                                </div>
-                                <div class="card-body">
-                                    <?php include 'grafico_ventas.php'; ?>
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        <i class="fas fa-chart-area me-1"></i>
+                                        <a href="../ventas/grafico_ventas.php" >Ventas por día </a>
+                                    </div>
+                                    <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
                                 </div>
                             </div>
-                        </div>
 
                             <div class="col-xl-6">
                                 <div class="card mb-4">
                                     <div class="card-header">
                                         <i class="fas fa-chart-bar me-1"></i>
-                                        <a href="grafico_producto.php">Productos Más Vendidos</a>
+                                        <a href="../ventas/grafico_producto.php" >Producto mas vendido </a>
                                     </div>
-                                    <div class="card-body">
-                                    <?php include 'grafico_producto.php'; ?>
-
+                                    <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
                                 </div>
                             </div>
+                        </div>
                         </div>
