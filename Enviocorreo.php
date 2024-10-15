@@ -6,9 +6,17 @@
       <div class="page-header min-vh-100">
         <div class="container">
           <div class="row">
-            <div class="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 start-0 text-center justify-content-center flex-column">
-              <div class="position-relative h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center" style="background-image: url('kit-master/assets/img/logofucsia.png'); background-size: cover;" loading="lazy"></div>
-            </div>
+          <div class="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 start-0 text-center justify-content-center flex-column">
+  <div class="position-relative h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center" 
+       style="background-image: url('kit-master/assets/img/logofucsia.png'); 
+              background-size: contain; 
+              background-position: center; 
+              background-repeat: no-repeat;
+              max-width: 80%; 
+              max-height: 80%;" 
+       loading="lazy">
+  </div>
+</div>
             <div class="col-xl-6 col-lg-0 col-md-7 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-0">
               <div class="card d-flex blur justify-content-center shadow-lg my-sm-0 my-sm-6 mt-8 mb-5">
                 <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
