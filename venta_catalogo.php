@@ -26,7 +26,7 @@ $granTotal = 0;
             ?>
                 <div class="alert alert-info">
                     <strong>Ok</strong> Producto quitado de la lista
-                </div>
+                </div>  
             <?php
             } else if ($_GET["status"] === "4") {
             ?>

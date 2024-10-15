@@ -27,20 +27,20 @@
                         <div class="col-md-6">
                           <div class="input-group input-group-static mb-4">
                             <label>Nombre</label>
-                            <input type="text" class="form-control" placeholder="Full Name">
+                            <input type="text" class="form-control" placeholder="Nombre completo">
                           </div>
                         </div>
                         <div class="col-md-6 ps-md-2">
                           <div class="input-group input-group-static mb-4">
                             <label>Correo</label>
-                            <input type="email" class="form-control" placeholder="hello@creative-tim.com">
+                            <input type="email" class="form-control" placeholder="corre@dominio.com">
                           </div>
                         </div>
                       </div>
                       <div class="form-group mb-0 mt-md-0 mt-4">
                         <div class="input-group input-group-static mb-4">
                           <label>Cómo te podemos ayudar?</label>
-                          <textarea name="message" class="form-control" id="message" rows="6" placeholder="Describe your problem in at least 250 characters"></textarea>
+                          <textarea name="message" class="form-control" id="message" rows="6" placeholder="Mensaje 250 caracteres"></textarea>
                         </div>
                       </div>
                       <div class="row">
