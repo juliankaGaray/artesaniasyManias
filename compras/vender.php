@@ -90,11 +90,12 @@ if (isset($_GET["status"])) {
                 <?php
                 }
                 ?>
+				
             </tbody>
         </table>
 
         <br><br>
-
+		<a href="verificacion_tarjeta.php" class="btn btn-warning">Verificación de tarjeta</a>
         <!-- Tabla del carrito -->
         <h2>Carrito</h2>
         <table class="table table-bordered">

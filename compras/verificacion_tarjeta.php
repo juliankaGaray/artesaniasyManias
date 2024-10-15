@@ -13,16 +13,11 @@ function luhn($number) {
 ?>
 
 <div class="container-fluid px-4">
-    <h1 class="mt-4">Usuarios</h1>
-    <ol class="breadcrumb mb-4">
-        <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-        <li class="breadcrumb-item active"><a href="usuarios.php">Usuarios</a></li>
-    </ol>
-
+    
     <div class="card mb-4">
         <div class="card-body">
             <div class="container-fluid px-4">
-                <h1 class="mt-4">Verificación de Tarjeta</h1>
+                <h1 class="mt-4">Verifica tu tarjeta</h1>
                 <div class="card mb-4">
                     <div class="card-header">
                         <i class="fas fa-table me-1"></i>
