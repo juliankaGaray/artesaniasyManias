@@ -6,7 +6,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
-            <h1 class="text-white">Bienvenidos a Artesanias y manías  </h1>
+            <h1 class="text-white">Bienvenidos a Artesanías y manias  </h1>
             <p class="lead mb-4 text-white opacity-8">Donde cada creación es una pasión con tradición. ¡Descubre lo extraordinario de lo hecho a mano!</p>
             <form action="registro.php" method="post"> 
               <button type="submit" class="btn bg-white text-dark">Únete a nosotros</button>
@@ -24,8 +24,8 @@
       </div>
     </div>
   </header>
-  <!-- -------- END HEADER 7 w/ text and video ------- -->
-  <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
+
+    
   <!-- Section for Mission and Vision -->
   <section class="py-7">
     <div class="container">
@@ -35,7 +35,7 @@
           <div class="card bg-gradient-info text-white">
             <div class="card-body text-center">
               <i class="material-icons text-4xl mb-3">public</i>
-              <h3 class="font-weight-bold">MISIÓN</h3>
+              <h3 class="font-weight-bold text-white">MISIÓN</h3>
               <p class="mb-0">"Conectar de manera significativa las manos creativas de los artesanos con los corazones de nuestros clientes, a través de la oferta de productos únicos y artesanales que encarnan la cultura, la pasión y la autenticidad. Nos comprometemos a promover prácticas sostenibles y justas en el trabajo artesanal, llevando la esencia de la tradición a cada hogar y creando oportunidades de desarrollo para nuestros artesanos, mientras cultivamos un sentido de comunidad y apreciación por el arte hecho a mano."</p>
             </div>
           </div>
@@ -46,7 +46,7 @@
           <div class="card bg-gradient-dark text-white">
             <div class="card-body text-center">
               <i class="material-icons text-4xl mb-3">3p</i>
-              <h2 class="font-weight-bold"style="color: #FF5733;">VISIÓN</h2>
+              <h2 class="font-weight-bold text-white">VISIÓN</h2>
               <p class="mb-0">"Convertirnos en un referente global en la creación de productos artesanales que fusionen tradición y creatividad, reconocidos por nuestra excepcional calidad y compromiso con la sostenibilidad. Aspiramos a revolucionar el mercado artesanal, asegurando que cada pieza hecha a mano narre una historia única, mientras compartimos nuestra pasión por lo artesanal en todos los rincones del mundo, fortaleciendo continuamente a las comunidades artesanas que hacen posible nuestra misión."</p>
             </div>
           </div>
@@ -58,14 +58,54 @@
 <!-- END Section for Mission and Vision -->
     </section>
     <!-- END Section with four info areas left & one card right with image and waves -->
+
+    <div class="row">
+          <div class="col-lg-6 col-12">
+            <div class="card card-profile mt-4">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 mt-n5">
+                  <a href="javascript:;">
+                    <div class="p-3 pe-md-0">
+                      <img class="w-100 border-radius-md shadow-lg" src="kit-master/assets/img/team-5.jpg" alt="image">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-8 col-md-6 col-12 my-auto">
+                  <div class="card-body ps-lg-0">
+                    <h5 class="mb-0">Emma Roberts</h5>
+                    <h6 class="text-info">Administradora</h6>
+                    <p class="mb-0">El pesimista ve dificultades en cada oportunidad. El optimista ve oportunidades en cada dificultad.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="card card-profile mt-lg-4 mt-5">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 mt-n5">
+                  <a href="javascript:;">
+                    <div class="p-3 pe-md-0">
+                      <img class="w-100 border-radius-md shadow-lg" src="kit-master/assets/img/bruce-mars.jpg" alt="image">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-8 col-md-6 col-12 my-auto">
+                  <div class="card-body ps-lg-0">
+                    <h5 class="mb-0">Gerente</h5>
+                    <h6 class="text-info">Boss</h6>
+                    <p class="mb-0">No se trata de si van a derribarte, se trata de si vas a levantarte cuando lo hagan</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     <!-- -------- START Features w/ pattern background & stats & rocket -------- -->
     <section class="pb-5 position-relative bg-gradient-dark mx-n3">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 text-start mb-5 mt-5">
-            <h3 class="text-white z-index-1 position-relative">Nuestros productos estrella</h3>
-            <p class="text-white opacity-8 mb-0">Conoce el Top 3 de los productos más populares que te ofrecemos</p>
-          </div>
+          
         </div>
         <div class="row">
           <div class="col-lg-6 col-12">
@@ -81,15 +121,9 @@
                 <div class="col-lg-8 col-md-6 col-12 my-auto">
                   <div class="card-body ps-lg-0">
                   <h5>
-                    <a href="javascript:;" class="text-dark font-weight-bold">Collar Ancestral</a>
-                      </h5>
-                      <p class="card-description">
-                      Este collar ancestral es una obra de arte que honra la herencia cultural de nuestros ancestros indígenas. Hecho a mano con materiales naturales y diseños intrincados, cada pieza cuenta una historia de sabiduría ancestral y conexión con la tierra. Ideal para quienes buscan un accesorio único que refleje un estilo auténtico y lleno de significado.
-                      </p>
-                      <p class="text-dark font-weight-bold">$69.999</p>
-                      <a href="catalogo.php" class="text-info text-sm icon-move-right">Ver Catalogo
-                        <i class="fas fa-arrow-right text-xs ms-1"></i>
-                      </a>
+                    <a href="javascript:;" class="text-dark font-weight-bold">Collar Ancestral</a><br>
+                    <a href="catalogo.php" class="text-info text-sm icon-move-right">Ver Catalogo
+                    <i class="fas fa-arrow-right text-xs ms-1"></i>
                   </div>
                 </div>
               </div>
@@ -111,12 +145,8 @@
                 <div class="col-lg-8 col-md-6 col-12 my-auto">
                   <div class="card-body ps-lg-0">
                     <h5>
-                      <a href="javascript:;" class="text-dark font-weight-bold">Ruana Tradicional</a>
-                        </h5>
-                        <p class="card-description">
-                        Nuestra ruana tradicional es el abrigo perfecto para cualquier ocasión. Tejida con lana de alta calidad por artesanos locales, esta prenda emblemática de los Andes te mantendrá cálido y elegante. Su diseño clásico y versátil la convierte en un accesorio imprescindible, ideal tanto para el frío de la montaña como para los días frescos en la ciudad.
-                        </p>
-                        <p class="text-dark font-weight-bold">$69.999</p>
+                      <a href="javascript:;" class="text-dark font-weight-bold">Ruana Tradicional</a><br>
+                       
                         <a href="catalogo.php" class="text-info text-sm icon-move-right">Ver Catalogo
                           <i class="fas fa-arrow-right text-xs ms-1"></i>
                   </div>
@@ -137,13 +167,8 @@
                 <div class="col-lg-8 col-md-6 col-12 my-auto">
                   <div class="card-body ps-lg-0">
                     <h5>
-                      <a href="javascript:;" class="text-dark font-weight-bold">Mochila Wayuu</a>
-                        </h5>
-                        <p class="card-description">
-                        La mochila Wayuu es una pieza única, tejida a mano por la comunidad indígena Wayuu de Colombia. Cada mochila cuenta con un diseño colorido y geométrico que refleja la rica tradición de este pueblo. Ligera, resistente y con un estilo bohemio, es el complemento ideal para quienes valoran la autenticidad y el trabajo artesanal en sus accesorios.
-                        </p>
-                        <p class="text-dark font-weight-bold">$79.999</p>
-                        <a href="catalogo.php" class="text-info text-sm icon-move-right">Ver Catalogo
+                      <a href="javascript:;" class="text-dark font-weight-bold">Mochila Wayuu</a> <br>
+                          <a href="catalogo.php" class="text-info text-sm icon-move-right">Ver Catalogo
                           <i class="fas fa-arrow-right text-xs ms-1"></i>
                   </div>
                 </div>

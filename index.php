@@ -11,7 +11,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
-            <h1 class="text-white">Bienvenidos a ¡Artesanias y manías!  </h1>
+            <h1 class="text-white">Bienvenidos a ¡Artesanías y manias!  </h1>
             <p class="lead mb-4 text-white opacity-8">Donde cada creación es una pasión con tradición. ¡Descubre lo extraordinario de lo hecho a mano!</p>
            
             
@@ -77,10 +77,11 @@
               </div>
               <div class="card-body text-center">
                 <h5 class="font-weight-normal">
-                  <a href="javascript:;">Asesores de acompañamiento</a>
+                <a >Asesores de acompañamiento</a>
                 </h5>
                 <p class="mb-0">
                   Recibiremos todos tus comentarios y sugerencias.
+
                 </p>
                 <a href="Enviocorreo.php" class="btn bg-gradient-info  mb-0 h-100 position-relative z-index-2 text-decoration-none">Comunícate con nosotros</a>
               </div>
@@ -118,7 +119,7 @@
                       </h5>
                       <p class="card-description">
                       Este collar ancestral es una obra de arte que honra la herencia cultural de nuestros ancestros indígenas. Hecho a mano con materiales naturales y diseños intrincados, cada pieza cuenta una historia de sabiduría ancestral y conexión con la tierra. Es ideal para quienes buscan un accesorio único que refleje un estilo auténtico y lleno de significado.</p>
-                      <p class="text-dark font-weight-bold">$69.999</p>
+                      <p class="text-dark font-weight-bold">$9.999</p>
                       <a href="catalogo.php" class="text-info text-sm icon-move-right">Ver Catálogo
                         <i class="fas fa-arrow-right text-xs ms-1"></i>
                       </a>
@@ -148,7 +149,7 @@
                         <p class="card-description">
                         Nuestra ruana tradicional es el abrigo perfecto para cualquier ocasión. Tejida con lana de alta calidad por artesanos locales, esta prenda emblemática de los Andes te mantendrá cálido y elegante. Su diseño clásico y versátil la convierte en un accesorio imprescindible, ideal tanto para el frío de la montaña como para los días frescos en la ciudad.
                         </p>
-                        <p class="text-dark font-weight-bold">$69.999</p>
+                        <p class="text-dark font-weight-bold">$100.000</p>
                         <a href="catalogo.php" class="text-info text-sm icon-move-right">Ver Catálogo
                           <i class="fas fa-arrow-right text-xs ms-1"></i>
                   </div>
@@ -174,7 +175,7 @@
                         <p class="card-description">
                         La mochila Wayuu es una pieza única, tejida a mano por la comunidad indígena Wayuu de Colombia. Cada mochila cuenta con un diseño colorido y geométrico que refleja la rica tradición de este pueblo. Ligera, resistente y con un estilo bohemio, es el complemento ideal para quienes valoran la autenticidad y el trabajo artesanal en sus accesorios.
                         </p>
-                        <p class="text-dark font-weight-bold">$79.999</p>
+                        <p class="text-dark font-weight-bold">$120.000</p>
                         <a href="catalogo.php" class="text-info text-sm icon-move-right">Ver Catálogo
                           <i class="fas fa-arrow-right text-xs ms-1"></i>
                   </div>

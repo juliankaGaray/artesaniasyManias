@@ -28,7 +28,7 @@
   <link href="/kit-master/assets/css/nucleo-icons.css" rel="stylesheet" />
   <link href="/kit-master/assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- Font Awesome Icons -->
-  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <script src="https:/kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
   <!-- Material Icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   <!-- CSS Files -->
@@ -87,10 +87,7 @@
           <a class="nav-link disabled" aria-disabled="true"></a>
         </li>
       </ul>
-      <form class="d-flex" role="search" method="GET" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-        <input class="form-control me-2" type="search" name="query" placeholder="Buscar" aria-label="Search" required>
-        <button class="btn btn-outline-success" type="submit">Buscar</button>
-      </form>
+     
 
       <?php
         if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['query'])) {

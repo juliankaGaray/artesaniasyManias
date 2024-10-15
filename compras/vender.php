@@ -9,14 +9,14 @@ $granTotal = 0;
 <!-- Contenedor principal -->
 <div class="container mt-5" style="background-color: white; padding: 20px; border-radius: 5px;">
     <div class="col-xs-12">
-        <h1>Comprar</h1>
+        <h1>Carrito de Compras</h1>
 
         <?php
 if (isset($_GET["status"])) {
     if ($_GET["status"] === "1") {
         ?>
         <div class="alert alert-success">
-            <strong>¡Éxito!</strong> La venta se ha realizado correctamente.
+            <strong>¡Éxito!</strong> La compra se ha realizado correctamente.
         </div>
         <?php
 				// Verifica si existe el ID de la venta en la URL
@@ -44,7 +44,7 @@ if (isset($_GET["status"])) {
 			} else {
 				?>
 				<div class="alert alert-danger">
-					<strong>Error:</strong> Algo salió mal mientras se realizaba la venta.
+					<strong>Error:</strong> Algo salió mal mientras se realizaba la compra.
 				</div>
 				<?php
 			}
@@ -135,8 +135,8 @@ if (isset($_GET["status"])) {
         <h3>Total: <?php echo $granTotal; ?></h3>
         <form action="./terminarVenta.php" method="POST">
             <input name="total" type="hidden" value="<?php echo $granTotal; ?>">
-            <button type="submit" class="btn btn-success">Terminar venta</button>
-            <a href="./cancelarVenta.php" class="btn btn-danger">Cancelar venta</a>
+            <button type="submit" class="btn btn-success">Terminar compra</button>
+            <a href="./cancelarVenta.php" class="btn btn-danger">Cancelar compra</a>
         </form>
     </div>
 </div>

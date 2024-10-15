@@ -29,7 +29,7 @@
   <!-- Control Center for Material UI Kit: parallax effects, scripts for the example pages etc -->
   <!--  Google Maps Plugin    -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
-  <script src="/kit-master/assets/js/material-kit.min.js?v=3.0.4" type="text/javascript"></script>
+  <script src="./kit-master/assets/js/material-kit.min.js?v=3.0.4" type="text/javascript"></script>
   <script>
   // get the element to animate
     var element = document.getElementById('count-stats');

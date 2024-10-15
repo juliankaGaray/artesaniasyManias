@@ -7,7 +7,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
-            <h1 class="text-white">Artesanias y Manías</h1>
+            <h1 class="text-white">Artesanías y Manias</h1>
             <p class="lead mb-4 text-white opacity-8">Somos apasionados por las artesanías y la creatividad. Desde nuestros inicios, nos hemos dedicado a ofrecer productos artesanales únicos, elaborados con amor y dedicación por talentosos artesanos que preservan técnicas tradicionales y promueven la sostenibilidad.</p>
             
 

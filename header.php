@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="76x76" href="kit-master/assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="kit-master/assets/img/favicon.png">
   <title>
-    Artesanias y Manias
+    Artesanías y Manias
   </title>
   <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
@@ -59,7 +59,7 @@
   <div class="container-fluid">
     <a class="navbar-brand text-black" href="index.php" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
         <img src="kit-master/assets/img/logo-ct-dark.png" alt="Logo" style="height: 40px; margin-right: 10px;">
-        Artesanias y Manias
+        Artesanías y Manias
       </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -87,10 +87,7 @@
           <a class="nav-link disabled" aria-disabled="true"></a>
         </li>
       </ul>
-      <form class="d-flex" role="search" method="GET" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-        <input class="form-control me-2" type="search" name="query" placeholder="Buscar" aria-label="Search" required>
-        <button class="btn btn-outline-success" type="submit">Buscar</button>
-      </form>
+      
 
       <?php
         if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['query'])) {
