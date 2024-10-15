@@ -25,19 +25,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Verificar si se ha subido un nuevo archivo de imagen
     if (isset($_FILES['imagen']) && $_FILES['imagen']['error'] == UPLOAD_ERR_OK) {
         // Procesar la imagen
-        $rutaImagen = __DIR__ . '/uploads/'; // Asegúrate de que esta ruta exista y tenga permisos de escritura
+        $rutaImagen = 'uploads/'; // Ruta relativa para almacenar en la BD y acceder a la imagen
+        $directorioAbsoluto = __DIR__ . '/' . $rutaImagen; // Ruta completa del servidor
 
         // Verifica si la carpeta 'uploads' existe, si no, crea la carpeta
-        if (!is_dir($rutaImagen)) {
-            mkdir($rutaImagen, 0777, true); // Crear la carpeta con permisos
+        if (!is_dir($directorioAbsoluto)) {
+            mkdir($directorioAbsoluto, 0777, true); // Crear la carpeta con permisos
         }
 
         $nombreImagen = basename($_FILES['imagen']['name']);
-        $rutaDestino = $rutaImagen . $nombreImagen;
+        $rutaDestino = $directorioAbsoluto . $nombreImagen;
 
         // Mueve el archivo a la carpeta de uploads
         if (move_uploaded_file($_FILES['imagen']['tmp_name'], $rutaDestino)) {
-            $imagen = $rutaDestino; // Actualiza la variable de imagen con la nueva ruta
+            $imagen = $rutaImagen . $nombreImagen; // Almacena la ruta relativa en la BD
         } else {
             // Manejar error en la carga de la imagen
             echo "Error al subir la imagen.";
