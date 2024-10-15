@@ -77,7 +77,7 @@ if (!isset($_SESSION['usuario'])) {
                                     
                                 </nav>
                             </div>
-                            <div class="sb-sidenav-menu-heading">Addons</div>
+                            <div class="sb-sidenav-menu-heading">Adicionales</div>
                             <a class="nav-link" href="charts.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                                 Charts
@@ -85,6 +85,11 @@ if (!isset($_SESSION['usuario'])) {
                             <a class="nav-link" href="usuarios.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
                                 ususarios
+                            </a>
+
+                            <a class="nav-link" href="../registro.php">
+                                <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
+                                Registar usuario
                             </a>
                             
                             
@@ -101,7 +106,7 @@ if (!isset($_SESSION['usuario'])) {
                     <div class="container-fluid px-4">
                         <h1 class="mt-4">Dashboard</h1>
                         <ol class="breadcrumb mb-4">
-                            <li class="breadcrumb-item active">Dashboard</li>
+                            <li class="breadcrumb-item active">Dashboard Administrador</li>
                         </ol>
                         <div class="row">
                             <div class="col-xl-3 col-md-6">

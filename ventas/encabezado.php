@@ -21,7 +21,7 @@ if (!isset($_SESSION['usuario'])) {
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="index.php">Artesanías y manias</a>
+            <a class="navbar-brand ps-3" href="index.php">Artesanías y Manias</a>
             <!-- Sidebar Toggle-->
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
             <!-- Navbar Search-->
@@ -96,9 +96,9 @@ if (!isset($_SESSION['usuario'])) {
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Modulo de Ventas</h1>
+                        <h1 class="mt-4">Módulo de Ventas</h1>
                         <ol class="breadcrumb mb-4">
-                            <li class="breadcrumb-item active"></li>
+                            <li class="breadcrumb-item active">Dashboard Vendedor</li>
                         </ol>
                         <div class="row">
                             <div class="col-xl-3 col-md-6">

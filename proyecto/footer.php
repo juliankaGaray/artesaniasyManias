@@ -4,7 +4,7 @@
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2023</div>
+                            <div class="text-muted">Uniminuto a disticania ingeniería de sistemas © 2024 Ejercicios 5 y 6 ingeniería Web 1 Grupo 23.</div>
                             <div>
                                 <a href="#">Privacy Policy</a>
                                 &middot;
