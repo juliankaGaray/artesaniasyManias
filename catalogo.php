@@ -8,7 +8,7 @@ $productos = $sentencia->fetchAll(PDO::FETCH_OBJ);
 
 <div class="container-fluid bg-white p-4" style="border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
   <div class="col-xs-12">
-    <h1>Productos</h1>
+    <h1>Catalogo de Productos</h1>
     
     <br>
     <div class="table-responsive">
@@ -37,8 +37,8 @@ $productos = $sentencia->fetchAll(PDO::FETCH_OBJ);
             </td>
             <td>
               <!-- Botón para agregar a la venta -->
-              <a class="btn btn-primary" href="carrito.php?id=<?php echo $producto->id; ?>">
-                  <i class="fas fa-shopping-cart"></i> Agregar al carrito
+              <a class="btn btn-info" href="/compras/vender.php?id=<?php echo $producto->id; ?>">
+                  <i class="fas fa-shopping-cart"></i> Comprar
               </a>
               
             </td>

@@ -1,7 +1,7 @@
 <?php 
 session_start(); // Iniciar la sesión
 include('header.php'); 
-include_once "ventas/base_de_datos.php";
+include_once "ventas/base_de_datos.php"; // Asegúrate de que aquí está tu archivo de conexión
 
 // Verificar que haya productos en el carrito
 if (!isset($_SESSION['carrito']) || empty($_SESSION['carrito'])) {
@@ -9,7 +9,7 @@ if (!isset($_SESSION['carrito']) || empty($_SESSION['carrito'])) {
     exit;
 }
 
-// Obtener el total de la venta
+// Obtener el total de la venta desde el formulario
 $totalVenta = $_POST['total'];
 
 // Comenzar la transacción
@@ -19,10 +19,17 @@ try {
     // Insertar la venta en la tabla de ventas
     $sentencia = $base_de_datos->prepare("INSERT INTO ventas (total) VALUES (:total)");
     $sentencia->execute([':total' => $totalVenta]);
-    $idVenta = $base_de_datos->lastInsertId(); // Obtener el ID de la venta
+
+    // Obtener el ID de la venta
+    $idVenta = $base_de_datos->lastInsertId();
 
     // Insertar cada producto en la tabla de detalles de la venta
     foreach ($_SESSION['carrito'] as $item) {
+        if (!isset($item['id'], $item['cantidad'], $item['precio'])) {
+            throw new Exception("Datos incompletos para el producto en el carrito.");
+        }
+
+        // Insertar en detalles_venta
         $sentenciaDetalle = $base_de_datos->prepare("INSERT INTO detalles_venta (venta_id, producto_id, cantidad, precio) VALUES (:venta_id, :producto_id, :cantidad, :precio)");
         $sentenciaDetalle->execute([
             ':venta_id' => $idVenta,
